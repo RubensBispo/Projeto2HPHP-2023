@@ -6,7 +6,7 @@
 		$resp = $num1 + $num2;
 
 
-		echo "A soma é $resp";
+		return $resp;
 
 	}
 
