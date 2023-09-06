@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 
 	function somaValor($num1,$num2)
 	{
@@ -11,6 +10,5 @@
 	}
 
 	somaValor(45.0,10.50);
-
 
  ?>

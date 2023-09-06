@@ -1,15 +1,13 @@
 <?php 
 
-function somaValor()
-	{
-		$num1 = 2;
-		$num2 = 2;
-		$resp = $num1+$num2;
+	function somaValor()
+		{
+			$num1 = 10;
+			$num2 = 20;
+			$resp = $num1+$num2;
 
-		echo "o resultado da soma e $resp ";
-	}
+			echo "O resultado da soma e $resp ";
+		}
 
-	somaValor();
-
-	
+		somaValor();
  ?>
