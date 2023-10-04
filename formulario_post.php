@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Exemplo formulário</h1>
-    <form action="processa.php" method="get">
+    <form action="processa.php" method="post">
         <label for="usuario">Usuário</label>
         <input type="text" name="usuario" id="usuario" autofocus autocomplete="off" maxlength="30"><br/><br/>
         <label for="senha">Senha</label>
