@@ -8,12 +8,20 @@
 <body>
     <h1>Exemplo formulário</h1>
     <form action="processa.php" method="get">
-        <label for="usuario">Usuário</label>
-        <input type="text" name="usuario" id="usuario" autofocus autocomplete="off" maxlength="30"><br/><br/>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="usuario" autofocus autocomplete="off" maxlength="50" required><br/><br/>
         <label for="senha">Senha</label>
-        <input type="password" name="senha" id="senha" autocomplete="on" maxlength="20"><br/><br/>
+        <input type="password" name="senha" id="nome" autocomplete="on" maxlength="20"><br/><br/>
+
+        <input type="checkbox" name="termouso" id="termouso" value="termo" required/>
+        <input type="radio" name="sexo" id="fem"value="fem" required/><label for="fem">Feminino</label>
+        <input type="radio" name="sexo" id="masc" value="masc" required/><label for="masc">Masculino</label>
+
+        <input type="hidden" name="login" value="admin"><br/>&nbsp;>&nbsp;>&nbsp;
+        <input type="button" name="Voltar">&nbsp;>&nbsp;>&nbsp;
+        <input type="reset" name="limpar" value="Limpar">&nbsp;>&nbsp;>&nbsp;
         <input type="submit" name="enviar" value="Entrar">        
-        <input type="reset" name="limpar" value="Limpar">
+        
     </form>
 </body>
 </html>
