@@ -1,7 +1,9 @@
 <?php 
 	
 	echo "<h1>Bem vindo ao Sistema</h1>";
-	$num1 = $_POST['num1'];
+	if (!empty($_POST['num1'] && $_POST['num2']))
+	{
+		$num1 = $_POST['num1'];
 	$num2 = $_POST['num2'];
 	$operacao = $_POST["operacao"];
 
@@ -27,6 +29,8 @@
 			// code...
 			break;
 	}
+	}
+	
 
 	function soma($num1,$num2)
 	{
