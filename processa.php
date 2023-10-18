@@ -3,28 +3,19 @@
 	echo "<h1>Bem vindo ao Sistema</h1>";
 	if (!empty($_POST['num1'] && $_POST['num2']))
 	{
-		$num1 = $_POST['num1'];
-		$num2 = $_POST['num2'];
-		$operacao = $_POST["operacao"];
+		$qs = $_POST['qualidadeSevico'];
 
-		switch ($operacao) {
-			case 'soma':
+		switch ($qs) {
+			case '1':
 				$resp = soma($num1,$num2);
 				break;
-			case 'subtracao':
+			case '2':
 				$resp = subtracao($num1,$num2);
 				break;
-			case 'multiplicacao':
+			case '3':
 				$resp = multiplicacao($num1,$num2);
 				break;
-			case 'divisao':
-				if ($num2<=0) {
-					$resp = "impossível divisão por zero";
-				}
-				else{
-					$resp = divisao($num1,$num2);
-				}
-				break;
+			
 			default:
 				// code...
 				break;
