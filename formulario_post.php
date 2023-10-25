@@ -27,6 +27,9 @@
             <option value="BA">Bahia</option>
         </select><br/><br/>
 
+        <p>Mensagem</p>
+        <textarea name="mensagem" id="mensagem" cols="80" rows="7"></textarea><br/><br/>
+
         <input type="hidden" name="user" value="admin">
         <input type="hidden" name="nivel" value="2">
 
