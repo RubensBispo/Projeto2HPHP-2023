@@ -35,13 +35,17 @@ div {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+
+
+
 </style>
 
 </head>
 
 <body>
 
-<h3>Using CSS to style an HTML Form</h3>
+<h1>Cadastrar Pessoas</h1>
 
 <div>
   <form action="/InserindoDados.php">
